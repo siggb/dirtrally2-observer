@@ -14,23 +14,40 @@ set_up_homebrew() {
 
 set_up_python3() {
     echo -e "\n[Python3]"
-    which -s python
-    python --version
-    if (( $? != 0 )); then
-        echo "Installing Python3.."
-        brew install python3
-    else
-        echo "Updating Python3.."
-        brew upgrade python
-    fi
+    py_version=$(cat ".python-version")
+
+    pyenv --version
+    which -s pyenv
+
+    pyenv install $py_version
+    pyenv global $py_version
+    pyenv version
+
+    echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc
+    source ~/.zshrc
 }
 
-set_up_pip3() {
-    echo -e "\n[Pip3]"
-    which -s pip
+check_versions() {
+    echo -e "\n[Versions]"
+    which python
+    python --version
     pip --version
-    # pip3 is installed automatically as a part of `brew install python3`
+}
+
+set_up_pipenv() {
+    echo -e "\n[PipEnv]"
+    pip install --upgrade pip
+    pip install -r requirements.txt
+    pipenv install
 }
 
 set_up_homebrew
+brew bundle install
+
 set_up_python3
+check_versions
+
+set_up_pipenv
+# Start Env:   pipenv shell
+# VSCode:      set Python Interpreter to ~/.local/share/virtualenvs/..
+# Stop Env:    exit

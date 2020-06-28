@@ -1,0 +1,3 @@
+Brewfile.lock.json
+Pipfile.lock
+src/__pycache__/*

@@ -1,0 +1,2705 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        
+        <meta name="google-site-verification" content="uW2HyUEEEOe2y9gqeUvsMVElb6WPs4jvZ6SIN487SXg" />
+        <meta http-equiv="content-language" content="en" />
+        
+        
+        <link href='https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+        
+        <link rel="stylesheet" type="text/css" href="/lib/css/psnprofiles.css?21" />
+
+		<link rel="stylesheet" type="text/css" href="/lib/css/flexboxgrid.min.css">
+		<link rel="stylesheet" type="text/css" href="/lib/css/forms.css">
+		<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+        <script type="text/javascript" src="/lib/js/jquery.min.js"></script>  
+        <script type="text/javascript" src="/lib/js/PSNProfiles.js?10"></script>  
+        <script type="text/javascript" src="/lib/js/jquery.waitforimages.min.js"></script> 
+        <script type="text/javascript" src="/lib/js/modal.js?1"></script>
+        <script type="text/javascript" src="/lib/js/jquery.tipTip.min.js"></script>  
+        <script type="text/javascript" src="/lib/js/toastr.js"></script>
+        <script type="text/javascript" src="/lib/js/loadingoverlay.min.js"></script>  
+		<script type="text/javascript" src="/lib/js/jquery.scrollTo.min.js?2"></script>
+		<script type="text/javascript" src="/lib/js/jquery.sticky.js"></script>
+		<script type="text/javascript" src="/lib/js/sticky-kit.min.js"></script>
+
+		<!--[if lt IE 10]>
+			<script src="/lib/js/jquery.placeholder.min.js"></script>
+		<![endif]-->		
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="/lib/js/forms-ie8.js"></script>
+			<link rel="stylesheet" href="/lib/css/forms-ie8.css">
+		<![endif]-->
+		<!--[if IE]>
+			<link rel="stylesheet" type="text/css" href="/lib/css/ie.css" />
+		<![endif]-->
+
+
+        
+        	<script type="text/javascript" src="/lib/js/lazyYT.js"></script>
+	<link href='/lib/css/lazyYT.css' rel='stylesheet' type='text/css' />
+	<script>
+		$(function() 
+		{
+			$('.lazyYT').lazyYT('AIzaSyAoXGwnqydIYYyolFGd1bJOZPyBbeYpz4E', {
+				youtube_parameters: 'rel=0',
+				display_duration: true,
+			}); 
+
+			prepareSpoilers();
+		});
+	</script>
+	<script type="text/javascript" src="/lib/js/jquery-ui-1.10.2.custom.min.js"></script>
+
+        							<script>
+					window.cmpConfig = {
+						globalVendorListLocation:'https://cmp.network-n.com/vendorlist.json',
+						customLogo: '/lib/img/icons/logo-round-160px.png',
+						customLogoLink: '/about/privacy',
+						customLogoTitle: 'PSNProfiles'
+					};
+
+					!function(e,a){if(function(e){"string"==typeof e&&(e=[e]);for(var n=0;n<e.length;n++)a.cookie=e[n]+
+					"=;max-age=-1;domain=."+a.domain+";path=/"}(["euconsent","eupubconsent","googlepersonalization"]),
+					!e.__cmp){e.__cmp=function(){(e.attachEvent||e.addEventListener)("message",function(a){e.__cmp.receiveMessage(a)}
+					,!1),function n(){if(!e.frames.__cmpLocator)if(a.body){var o=a.createElement("iframe");o.style.display="none",
+					o.name="__cmpLocator",a.body.appendChild(o)}else setTimeout(n,5)}();var n=[],o=function(a,o,c){"ping"===a?c&&c({
+					gdprAppliesGlobally:!!(e.__cmp&&e.__cmp.config&&e.__cmp.config.storeConsentGlobally),cmpLoaded:!1}):
+					n.push({command:a,parameter:o,callback:c})};return o.commandQueue=n,o.receiveMessage=function(e){
+					var a=e&&e.data&&e.data.__cmpCall;a&&n.push({callId:a.callId,command:a.command,parameter:a.parameter,
+					event:e})},o.config=e.cmpConfig||{globalVendorListLocation:"https://cmp.network-n.com/vendorlist.json"},
+					o}();var n=a.createElement("script");n.async=!0,n.src="https://cmp.network-n.com/js/cmp.cf.complete.bundle.js",
+					a.getElementsByTagName("head")[0].appendChild(n)}}(window,document);
+				</script>
+
+				<!-- Begin ComScore Tag -->
+				<script>
+				!function(o,n){if(o._localCS={consent:null,loaded:!1,tx:null},o._comscore=o._comscore||[],o.__cmp){
+				o.__cmp("getVendorConsents",[77],function(o,c){function e(o){return"object"==typeof o}c&&(_localCS.consent=e(o)
+				&&e(o.vendorConsents)&&o.vendorConsents[77],_localCS.consent=_localCS.consent?"1":"0",t())}),function c(){
+				o.__cmp("ping",null,function(o){if(!1===o.cmpLoaded){if(null===_localCS.tx)return void(_localCS.tx=setTimeout(c,3e3));
+				t()}o.cmpLoaded&&(clearTimeout(_localCS.tx),t())})}()}function t(){var o,c,e;_localCS.loaded||
+				(_comscore.push({c1:"2",c2:"25110922",cs_ucfr:_localCS.consent}),c=(o=n).createElement("script"),
+				e=o.getElementsByTagName("script")[0],c.async=!0,c.src=("https:"==o.location.protocol?"https://sb":"http://b")
+				+".scorecardresearch.com/beacon.js",e.parentNode.insertBefore(c,e),_localCS.loaded=!0)}o.__cmp||t()}(window,document);
+				</script>
+				<noscript><img src="https://sb.scorecardresearch.com/p?c1=2&c2=25110922&cv=2.0&cj=1" /></noscript>
+				<!-- End ComScore Tag -->
+
+				<script src="/lib/js/n/psnprofiles.min.js?13" async></script>
+
+				<!--Google Tag Manager Head Code-->
+				<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+				new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+				j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+				'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+				})(window,document,'script','dataLayer','GTM-PNNMW4P');</script>
+				<!--End Google Tag Manager Head Code-->
+				<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+
+				<script>
+				$(function(){
+					if ($("#nn_skinl").length) {
+						$("#leftAd > div").stick_in_parent({spacer: false});
+					}
+					if ($("#nn_skinr").length) {
+						$("#rightAd > div").stick_in_parent({spacer: false});
+					}
+				})
+				</script>
+					
+		
+        <title>Fire Up That Car... Again Trophy • Dirt Rally 2.0  • PSNProfiles.com</title>
+
+		
+        <meta name="csrf-token" content="nP50P8e1HNCPkAAE9SdtobcVrXB4nXfs1rRoaYiL">
+
+    </head>
+	<body class="app  ">
+		<!--Google Tag Manager Body code (Please place this as close to the opening body tag as possible)-->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PNNMW4P"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!--End of Google Tag Manager Body code-->
+	
+	
+
+	<!--[if lte IE 10]>
+	    <div id="ie-notice" style="display: none;">
+			You are using an unsupported and unsecure version of Internet Explorer. <a href="http://browsehappy.com/" target="_blank">Update your browser</a>
+			<a href="" onclick="hideIeBar(); return false;" /><i class="fa fa-times-circle"></i></a>
+	    </div>
+	    <script type="text/javascript">
+			function hideIeBar()
+			{
+				setCookie('hideIeBar', true, 10);
+				$('#ie-notice').slideUp();
+			}
+
+			$(function()
+			{
+				if (!readCookie('hideIeBar'))
+				{
+					$('#ie-notice').show();
+				}
+			});
+	    </script>
+	<![endif]-->
+
+
+
+
+
+	
+
+	
+
+				<div id="header" class="">
+			<div class="header-border"></div>
+				<div class="header width">
+
+					<!--<div class="search-button">
+						<i class="fa fa-search" onclick="openSearch();"></i>
+					</div>-->
+
+					<div class="logo">
+						<a href="/"><img src="/lib/img/layout/spacer.png" alt="PSNProfiles" /></a>
+					</div>
+
+					<div class="navigation md-show">
+						<ul>
+							<li  class="md-show"><a href="/">Home</a></li>
+							<li><a href="https://forum.psnprofiles.com">Forums</a></li>
+							<li ><a href="/guides">Guides</a></li>
+							<li ><a href="/leaderboard">Leaderboard</a></li>
+							<li ><a href="/games">Games</a></li>
+							<li class="active" ><a href="/trophies">Trophies</a></li>
+														<li class="xs-hide lg-show "><a href="/sessions"><ul id="gamingSessions"><li class="active">Gaming</li><li>Boosting</li><li>Competitive</li><li>Just for Fun</li><li>Cooperative</li></ul> Sessions</a></li>
+							<li class="xs-show lg-hide "><a href="/sessions">Sessions</a></li>
+						</ul>
+					</div>
+
+					<div class="user-menu md-show">
+													<div id="subnav" class="subnav">
+								<ul>
+									<li>
+										<a class="signin button" href="/login">Log In <span style="padding: 0 5px; font-size: 12px">or</span> Create Account</a>
+									</li>
+								</ul>
+							</div>
+						
+											</div>
+					
+					<div class="menu-toggle md-hide">
+						<i class="fa fa-bars" onclick="$('#header > .header .navigation').toggleClass('big')"></i>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	
+	<div id="modal" style="display:none;">
+		<div id="modal_content">
+			<div style="margin:20px"><center><img id="" src="/lib/img/icons/loader-dark-large.gif" style=""><br /><small>Please Wait</small></center></div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		var GSNavCurrent;
+		var GSNavCurrentNo = 1;
+		var GSNav;
+		var GSNavInterval;
+
+		function rotateGSVav()
+		{
+			GSNavCurrent.removeClass('active');
+
+			if (GSNavCurrentNo == 5)
+			{
+				GSNavCurrent = $('#gamingSessions > li:first-child');
+				GSNavCurrentNo = 1;
+				clearInterval(GSNavInterval);
+			}
+			else
+			{
+				GSNavCurrent = GSNavCurrent.next();
+				GSNavCurrentNo++;
+			}
+
+			GSNavCurrent.addClass('active');
+			GSNav.css('width', GSNavCurrent.width()+5);
+		}
+
+					$(function()
+			{
+				GSNav = $('#gamingSessions');
+
+				GSNavCurrent = $('#gamingSessions > li:first-child');
+
+				GSNav.css('width', GSNavCurrent.width()+5);
+
+				GSNavInterval = setInterval(function()
+				{
+					rotateGSVav();
+				}, 1500);
+
+			});
+			</script>
+
+	<div id="banner" class="banner ">
+
+					<div id="slider" class="slider">
+				<div id="banner-placeholder" class="active" style="background-image: linear-gradient(to right, #d2c8cf 30%,#201913 70%)" />
+					<div class="img" style="background-image: url(https://i.psnprofiles.com/games/49c370/XSHad5468.png)"></div>
+				</div>
+									<div id="first-banner" style="background-image: linear-gradient(to right, #d2c8cf 30%,#201913 70%);" />
+						<div class="blur-container"><div class="blur" style="background-image: url('https://i.psnprofiles.com/games/49c370/XSHad5468.png')"></div></div>
+						<div class="img" style="background-image: url(https://i.psnprofiles.com/games/49c370/LH2a7a45.jpg)"></div>
+					</div>
+							</div>
+		
+
+
+
+		<script type="text/javascript">
+			var bgInterval, cardInterval, mainBannerReady;
+
+			$('#first-banner').waitForImages(
+			{
+			    finished: function()
+			    {
+			    	mainBannerReady = 1;
+			        slideSwitch('#slider');
+
+			        			    },
+			    each: function() {},
+			    waitForAll: true
+			});
+
+		</script>
+
+		<div class="banner-overlay  ">
+			<div class="width">
+									<div class="stats flex">
+		<span class="stat grow">25,115<span>Game Owners</span></span>
+		<span class="stat grow">212<span>Recent Players</span></span>
+					<span class="stat grow">818 (3.26%)<span>Platinum Achievers</span></span>
+				<span class="stat grow">8%<span>Average Completion</span></span>
+		<span class="stat grow">159,554<span>Trophies Earned</span></span>
+		<span class="stat grow">34
+							(0.14%)
+					<span>100% Completed</span></span>
+	</div>
+						<div class="title-bar flex v-align">
+	<div class="grow">
+		<h3><a href="/trophies/8745-dirt-rally-20">Dirt Rally 2.0</a><span class="breadcrumb-arrow">›</span>Fire Up That Car... Again</h3>
+	</div>
+
+	<div class="no-shrink">
+		<ul class="navigation">
+			<li class="">
+				<a href="/trophies/8745-dirt-rally-20">Trophies</a>
+			</li>
+
+							<li class="">
+					<a href="/guides/8745-dirt-rally-20">Guides</a>
+				</li>
+			
+			<li class="">
+				<a href="/game-leaderboard/8745-dirt-rally-20">Leaderboard</a>
+			</li>
+
+			<li class="">
+				<a href="/100-club/8745-dirt-rally-20">100% Club</a>
+			</li>
+
+							<li class="">
+					<a href="/trophy/8745-dirt-rally-20/1-completionist">Platinum Club</a>
+				</li>
+			
+							<li><a href="https://forum.psnprofiles.com/forum/8100-dirt-rally-20/">Forum</a></li>
+					</ul>
+	</div>
+
+	</div>								</div>
+		</div>
+	</div>
+
+
+	<div class="flex">
+		<div style="-webkit-order: 1; -ms-flex-order: 1; order: 1; position: relative; overflow: hidden;" class="grow md-show">
+			<div id="leftAd"><div><div id="nn_skinl"></div></div></div>
+		</div>
+
+		<div style="-webkit-order: 3; -ms-flex-order: 3; order: 3; position: relative; overflow: hidden;" class="grow md-show">
+			<div id="rightAd"><div><div id="nn_skinr"></div></div></div>
+		</div>
+
+		<div style="-webkit-order: 2; -ms-flex-order: 2; order: 2;" class="width">
+				<div id="content" class="page">
+
+							            <div class="wide-ad">
+                <center>
+                    <div id="nn_lb1"></div>
+                </center>
+                            </div>
+        
+			
+			<table class="box zebra">
+				<tr class="even">
+					<td>
+						<a href="https://i.psnprofiles.com/games/49c370/trophies/9L1128ba.png">
+							<img class="trophy " src="https://i.psnprofiles.com/games/49c370/trophies/9Sae3e19.png">
+						</a>
+					</td>
+					<td style="width: 100%; padding-left: 10px">
+						<span class="title">Fire Up That Car... Again</span>
+						<br />Finish in the top tier of a Daily Challenge Community Event in an Audi Sport quattro S1 E2.
+					</td>
+
+					
+					<td>
+						<span class="separator ">
+							<span class="typo-top">1,108</span><br /><span class="typo-bottom"><nobr>Achievers</nobr></span>
+						</span>
+					</td>
+
+					<td>
+						<span class="separator left">
+							<span class="typo-top">4.41%</span><br /><span class="typo-bottom"><nobr>Ultra Rare</nobr></span>
+						</span>
+					</td>
+					<td>
+						<span class="separator left">
+							<img title="Bronze" src="/lib/img/icons/40-bronze.png">
+						</span>
+					</td>
+
+
+				</tr>
+			</table>
+
+
+
+			<div id="trophyTips" style="margin-top: 10px;">
+
+																	<div class="cf">
+						<div class="guide-page-info sm" style="margin-bottom: 0; ">
+							<a href="/guide/8908-dirt-rally-20-trophy-guide">
+								<div class="background" style="background-image: url('https://i.psnprofiles.com/games/49c370/XSHad5468.png')">
+									<div class="shade" style="text-align: left">
+										<div class="flex v-align">
+											<div class="grow">
+												<h3 class="ellipsis"><span>Dirt Rally 2.0 Trophy Guide</span></h3>
+
+												<div class="info">
+													<span class="line-clamp two">
+														Written by Dasnake10 and kermit_La_Cronk
+														<bullet>•</bullet> Published <b>19th April 2020</b>
+																													<bullet>•</bullet> Updated <b>7th May 2020</b>
+																											</span>
+												</div>
+											</div>
+											<div class="no-shrink">
+												<div class="flex">
+													<div>
+														<center style="padding: 0 10px 0 10px; border-right:1px solid rgba(255,255,255,.3);">
+															<span class="rating-inline rating-5"></span><br/><span class="typo-bottom">19 Ratings</span>
+														</center>
+													</div>
+													<div>
+														<center style="padding: 0 10px 0 10px; border-right:1px solid rgba(255,255,255,.3);">
+															<span class="typo-top">15,434</span><br/><span class="typo-bottom">Views</span>
+														</center>
+													</div>
+													<div>
+														<center style="padding: 0 10px 0 10px;">
+															<span class="typo-top">42</span><br/><span class="typo-bottom">Favorites</span>
+														</center>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+
+											<div id="tags" class="section-tags box light clearfix no-top-border" style="padding: 5px 5px 5px 4px;">
+						<span class="tag Connectivity">Online Required</span>
+					<span class="tag Status">Buggy</span>
+			
+	<span class="floatr">
+			</span>
+</div>					
+					<div class="box light guide no-top-border" style="padding: 10px;">
+						This is the one trophy that will decide whether you do or don't get the platinum trophy for DiRT Rally 2.0.<div><br /></div>To earn this trophy, you must:<ol><li>Buy the <a href="https://dirt.fandom.com/wiki/Audi_Sport_quattro_S1_E2">Audi Sport quattro S1 E2</a>. this will cost 200,000 - 250,000 credits depending on if you get a new or used variation from the classifieds.</li><li>You need to be in the top tier of the leaderboards (The top 10%) for any Group B daily challenge using the Audi. This will vary depending on your skill and knowledge of the track and car, as well as how many people log into DiRT and complete the stage on any given day.</li></ol><div><br /></div>Daily challenges also offer a sense of difficulty as once you enter the event, you have one shot and nothing else. <ul><li>There is no restart option.</li><li>Quitting to main menu or retiring from event at any time will count as a DNF, and closing application mid-stage gives you the maximum amount of time for that stage (Either 15 or 30 minutes), while holding your car until the event runs out.</li><li>You do not get to see the exact stage you are driving until you enter the event, however you can see the location and class of car. The leaderboards cannot be viewed until completion of the stage.</li><li>It is better to be slightly cautious and smooth with the car than it is to try and set a blistering pace and end up with an irretrievable or terminally damaged car. The bottom tier of the leaderboards are always people who have quit the stage or terminally damaged their car, so you are guaranteed around the second and third tier even with some mistakes.</li></ul><br />However don't freak out as there are ways to get around this and make it easier for yourself.<br /><div><br /></div>It will help to use the car as much as possible once you get it as you will be able to purchase upgrades over time, allowing you to be faster, have a more reliable car, and unlock the full range of tuning options to tweak. If you are looking for guides on how to setup your car, <a href="https://www.youtube.com/watch?v=RuestCK6kog&list=PLcbXT3zPpPUj2uz3zH-BOz8xoke9AsEw4" target="_blank" rel="noreferrer noopener">here</a> is a playlist by YouTuber <em>SkyRex. </em>Included in the playlist is general guides for how to setup your cars for each base game and DLC location. These are helpful starting points for how you should approach a rally, but as all drivers have a different drive technique, you may need to experiment to create an optimum setup for your car.<br /><br />When you view the location, you should practice on a few different stages and warm-up in the car before going for your run. If you want to be extra sure of what stage it is, you can use a trick from the original DiRT Rally. This trick would be that some people would start the event up on a different account to see what stage it is and run the stage with that car, before practicing and then going for an attempt on the intended account.<br /><br />You can boost your attempts at this trophy by having the season pass, as this makes the bonus challenge events available to you. But if not, you should get at least 1 attempt at this trophy every week or two. Do not stress if you do not see one of these events every day as the developers try to rotate all locations and classes of car around as best as they can. <strong>Any Promo, Bonus or Delta events will count for this trophy,</strong>
+<strong>Daily AI challenges do not count for this trophy, all weekly and monthly challenges do not either.</strong><div><br /></div>The Global reset for Daily challenges is at <strong>10:00am GMT</strong> time, you can also view where you are on the leaderboard and how long is left on the event if you sign in to your Racenet account at the official <a href="https://dirtrally2.com/community-events" target="_blank" rel="noreferrer noopener">Dirt Rally 2 Community Events</a> site. If the rewards screen does not come up instantly, try closing application and restarting the game, or do a community or career event to trigger it.<br /><br />Don't worry or be un-motivated by your first few attempts, some people may get lucky the first time, but many will be trying months to achieve this. Here is my <a href="https://www.youtube.com/watch?v=7sLBVmQ04YM" target="_blank" rel="noreferrer noopener">live reaction</a> after a few months of attempts.<br /><div><br /></div>This trophy was buggy on launch as there was originally no passable objectives to unlock this trophy in the games code until V1.05, it also took Codemasters a month after launch to add any Group B daily challenge into the rotation.
+					</div>
+
+									</div>
+	
+	
+			
+	<div class="row" style="margin-top: 10px;">
+
+		<div class="col-xs-6">
+			<div class="title center flex v-align">
+				<div class="grow">
+					<h3>First Achievers</h3>
+				</div>
+			</div>
+			<table class="box zebra">
+									<tr class="">
+						<td class="rank">1</td>
+
+						<td>
+							<a href="/Thrill_Of_Speed">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G60dc4b76e.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Thrill_Of_Speed">Thrill_Of_Speed</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>16<sup>th</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>11:20:16 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">2</td>
+
+						<td>
+							<a href="/Shmeefly">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G75964179d.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Shmeefly">Shmeefly</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>16<sup>th</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>11:21:55 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">3</td>
+
+						<td>
+							<a href="/RedBullEnergyyy">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Gec5c9b710.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/RedBullEnergyyy">RedBullEnergyyy</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>16<sup>th</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>11:25:06 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">4</td>
+
+						<td>
+							<a href="/Orion-60">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G892193ced.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Orion-60">Orion-60</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>16<sup>th</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>11:25:37 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">5</td>
+
+						<td>
+							<a href="/TeaBag-1970">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G9156afd5e.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/TeaBag-1970">TeaBag-1970</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>16<sup>th</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>11:27:14 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">6</td>
+
+						<td>
+							<a href="/SolidNinjaSnake">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Gab164c2ad.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/SolidNinjaSnake">SolidNinjaSnake</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>16<sup>th</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>11:29:29 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">7</td>
+
+						<td>
+							<a href="/CainKaz">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G4d131b95f.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/CainKaz">CainKaz</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>16<sup>th</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>11:30:45 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">8</td>
+
+						<td>
+							<a href="/matiyes15">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Gde196dc07.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/matiyes15">matiyes15</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>16<sup>th</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>12:09:19 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">9</td>
+
+						<td>
+							<a href="/VGouveia">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G9a5c1e2a3.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/VGouveia">VGouveia</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>16<sup>th</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>1:12:26 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">10</td>
+
+						<td>
+							<a href="/Zaec_Driver">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G9aba6354a.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Zaec_Driver">Zaec_Driver</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>16<sup>th</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>1:34:29 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">11</td>
+
+						<td>
+							<a href="/Art_Vandelay555">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G633f2ed03.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Art_Vandelay555">Art_Vandelay555</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>16<sup>th</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>1:36:05 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">12</td>
+
+						<td>
+							<a href="/PVR103_612">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Ged5b88224.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/PVR103_612">PVR103_612</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>16<sup>th</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>2:20:43 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">13</td>
+
+						<td>
+							<a href="/JesteR1701one">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Gcef4fac45.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/JesteR1701one">JesteR1701one</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>16<sup>th</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>2:32:16 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">14</td>
+
+						<td>
+							<a href="/panzpohadky">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G5f28520c8.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/panzpohadky">panzpohadky</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>16<sup>th</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>3:43:43 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">15</td>
+
+						<td>
+							<a href="/kalkbrenner1986">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Ge4ae4bf0a.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/kalkbrenner1986">kalkbrenner1986</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>16<sup>th</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>4:43:00 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">16</td>
+
+						<td>
+							<a href="/Filipegt4">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Gd9a3a25fd.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Filipegt4">Filipegt4</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>16<sup>th</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>6:21:30 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">17</td>
+
+						<td>
+							<a href="/Markoholt">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G9bcc5a07e.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Markoholt">Markoholt</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>16<sup>th</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>6:38:36 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">18</td>
+
+						<td>
+							<a href="/rajeshkankavlika">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Ge53a5086e.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/rajeshkankavlika">rajeshkankavlika</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>16<sup>th</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>7:03:59 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">19</td>
+
+						<td>
+							<a href="/TheScorpi0411">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G43fb4143b.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/TheScorpi0411">TheScorpi0411</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>16<sup>th</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>7:20:06 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">20</td>
+
+						<td>
+							<a href="/Suissas7">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G2b531bec7.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Suissas7">Suissas7</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>16<sup>th</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>8:14:22 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">21</td>
+
+						<td>
+							<a href="/Mammoth83">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G477f03cbd.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Mammoth83">Mammoth83</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>17<sup>th</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>12:00:44 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">22</td>
+
+						<td>
+							<a href="/BenMessie1981">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Gd9951e109.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/BenMessie1981">BenMessie1981</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>17<sup>th</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>6:21:43 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">23</td>
+
+						<td>
+							<a href="/PestakMan974">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G7fe9eb9bc.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/PestakMan974">PestakMan974</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>17<sup>th</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>11:18:15 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">24</td>
+
+						<td>
+							<a href="/Mareczek83">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Gfba90ec21.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Mareczek83">Mareczek83</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>17<sup>th</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>1:51:24 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">25</td>
+
+						<td>
+							<a href="/Rambazamba90">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G633f2ed03.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Rambazamba90">Rambazamba90</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>17<sup>th</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>2:30:16 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">26</td>
+
+						<td>
+							<a href="/saabracing">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G5eb8592cd.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/saabracing">saabracing</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>17<sup>th</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>7:47:26 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">27</td>
+
+						<td>
+							<a href="/Kaszakristof9">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Ge3870f68e.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Kaszakristof9">Kaszakristof9</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>18<sup>th</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>3:02:18 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">28</td>
+
+						<td>
+							<a href="/nmmc">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G9197e11ff.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/nmmc">nmmc</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>22<sup>nd</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:10:23 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">29</td>
+
+						<td>
+							<a href="/tomboro15">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G49ec1eced.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/tomboro15">tomboro15</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>22<sup>nd</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:10:39 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">30</td>
+
+						<td>
+							<a href="/REX-TY">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G72ef8a172.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/REX-TY">REX-TY</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>22<sup>nd</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:12:56 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">31</td>
+
+						<td>
+							<a href="/BIackgate">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Ga2ed5974a.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/BIackgate">BIackgate</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>22<sup>nd</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:37:44 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">32</td>
+
+						<td>
+							<a href="/LucienNL">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G604e5ab06.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/LucienNL">LucienNL</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>22<sup>nd</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:54:45 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">33</td>
+
+						<td>
+							<a href="/lutonrules">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G16cca029e.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/lutonrules">lutonrules</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>22<sup>nd</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:55:11 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">34</td>
+
+						<td>
+							<a href="/tomcivic">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G6fbf3de83.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/tomcivic">tomcivic</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>22<sup>nd</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>11:54:23 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">35</td>
+
+						<td>
+							<a href="/Carra89Liverpool">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Gc2543f2e3.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Carra89Liverpool">Carra89Liverpool</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>22<sup>nd</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>5:03:49 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">36</td>
+
+						<td>
+							<a href="/VJ216Pro">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Gd6b182a3d.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/VJ216Pro">VJ216Pro</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>23<sup>rd</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:10:21 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">37</td>
+
+						<td>
+							<a href="/Sirmixalot1">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G99188befc.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Sirmixalot1">Sirmixalot1</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>23<sup>rd</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:35:48 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">38</td>
+
+						<td>
+							<a href="/chry">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Gdd8c162c6.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/chry">chry</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>23<sup>rd</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:45:13 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">39</td>
+
+						<td>
+							<a href="/Swynder">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Ge2fdc93ee.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Swynder">Swynder</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>23<sup>rd</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:46:42 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">40</td>
+
+						<td>
+							<a href="/loki1001">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G6fbf3de83.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/loki1001">loki1001</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>23<sup>rd</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>11:23:28 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">41</td>
+
+						<td>
+							<a href="/mike_82">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G1f8814830.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/mike_82">mike_82</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>23<sup>rd</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>11:53:13 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">42</td>
+
+						<td>
+							<a href="/Surgical_Assault">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Gbce1d4685.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Surgical_Assault">Surgical_Assault</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>23<sup>rd</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>12:00:41 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">43</td>
+
+						<td>
+							<a href="/Mikis94">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G5581e476d.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Mikis94">Mikis94</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>23<sup>rd</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>1:57:33 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">44</td>
+
+						<td>
+							<a href="/slasktratt_98t">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Gcc234b0d5.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/slasktratt_98t">slasktratt_98t</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>23<sup>rd</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>3:38:58 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">45</td>
+
+						<td>
+							<a href="/Badboys921">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Gfb70959bc.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Badboys921">Badboys921</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>23<sup>rd</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>4:39:24 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">46</td>
+
+						<td>
+							<a href="/Perforator_77">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Ge3870f68e.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Perforator_77">Perforator_77</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>23<sup>rd</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>4:44:57 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">47</td>
+
+						<td>
+							<a href="/SEPPO-SILAKKA">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G59187ba2b.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/SEPPO-SILAKKA">SEPPO-SILAKKA</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>23<sup>rd</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>5:34:00 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">48</td>
+
+						<td>
+							<a href="/JubilantSwine">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G0dd9fb57d.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/JubilantSwine">JubilantSwine</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>23<sup>rd</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>8:12:00 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">49</td>
+
+						<td>
+							<a href="/stantien123">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G98e21df14.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/stantien123">stantien123</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>23<sup>rd</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>8:43:14 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">50</td>
+
+						<td>
+							<a href="/bpmotard">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G5516812e4.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/bpmotard">bpmotard</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>23<sup>rd</sup> Apr 2019</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>9:38:40 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+							</table>
+		</div>
+
+		<div class="col-xs-6">
+			<div class="title center flex v-align">
+				<div class="grow">
+					<h3>Latest Achievers</h3>
+				</div>
+			</div>
+			<table class="box zebra">
+									<tr class="">
+						<td class="rank">1</td>
+
+						<td>
+							<a href="/roccolou">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G126bba792.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/roccolou">roccolou</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>26<sup>th</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>6:14:32 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">2</td>
+
+						<td>
+							<a href="/oleole56">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G75964179d.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/oleole56">oleole56</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>26<sup>th</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>1:58:47 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">3</td>
+
+						<td>
+							<a href="/MicroKeyz">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G4e6ebb886.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/MicroKeyz">MicroKeyz</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>26<sup>th</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>12:09:26 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">4</td>
+
+						<td>
+							<a href="/ALTERSOGETSU">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Gd91c9fdcb.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/ALTERSOGETSU">ALTERSOGETSU</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>26<sup>th</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>11:13:12 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">5</td>
+
+						<td>
+							<a href="/Morheus_021">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G0b428f36a.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Morheus_021">Morheus_021</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>26<sup>th</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:14:00 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">6</td>
+
+						<td>
+							<a href="/AndreWolf95">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G0fb07777a.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/AndreWolf95">AndreWolf95</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>25<sup>th</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>1:42:12 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">7</td>
+
+						<td>
+							<a href="/Steel-Turismo">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Gcad416022.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Steel-Turismo">Steel-Turismo</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>25<sup>th</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>11:33:42 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">8</td>
+
+						<td>
+							<a href="/grOOby_666">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G4613a5e4c.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/grOOby_666">grOOby_666</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>25<sup>th</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:19:47 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">9</td>
+
+						<td>
+							<a href="/Onodarian">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Geb03dfea2.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Onodarian">Onodarian</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>25<sup>th</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:17:27 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">10</td>
+
+						<td>
+							<a href="/CoItrain-">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Ge4d348435.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/CoItrain-">CoItrain-</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>22<sup>nd</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>3:57:53 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">11</td>
+
+						<td>
+							<a href="/egpwd">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G8f80cdf50.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/egpwd">egpwd</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>21<sup>st</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:35:39 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">12</td>
+
+						<td>
+							<a href="/atgomes19">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G29a3808d7.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/atgomes19">atgomes19</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>21<sup>st</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>2:30:13 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">13</td>
+
+						<td>
+							<a href="/HedleyNEUK">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Ged7d2aa87.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/HedleyNEUK">HedleyNEUK</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>21<sup>st</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>12:03:07 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">14</td>
+
+						<td>
+							<a href="/MisterMachine007">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G3655ea4e7.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/MisterMachine007">MisterMachine007</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>21<sup>st</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:15:35 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">15</td>
+
+						<td>
+							<a href="/Shadownet11">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G784c005ea.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Shadownet11">Shadownet11</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>15<sup>th</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>12:59:17 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">16</td>
+
+						<td>
+							<a href="/Sork-Desu">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G28019d9c3.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Sork-Desu">Sork-Desu</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>15<sup>th</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>11:49:36 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">17</td>
+
+						<td>
+							<a href="/D4vdi4n">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G61be67923.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/D4vdi4n">D4vdi4n</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>15<sup>th</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:55:59 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">18</td>
+
+						<td>
+							<a href="/BryBurgess">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Ge4da440ce.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/BryBurgess">BryBurgess</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>15<sup>th</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:54:46 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">19</td>
+
+						<td>
+							<a href="/Jakub66PL">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G3a525c5b1.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Jakub66PL">Jakub66PL</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>15<sup>th</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:25:43 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">20</td>
+
+						<td>
+							<a href="/TrailBlazerr">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G892193ced.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/TrailBlazerr">TrailBlazerr</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>15<sup>th</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:18:23 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">21</td>
+
+						<td>
+							<a href="/IroN-AllActioN">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G3ac8183f7.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/IroN-AllActioN">IroN-AllActioN</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>14<sup>th</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>5:49:13 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">22</td>
+
+						<td>
+							<a href="/gradev">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G9aba6354a.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/gradev">gradev</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>13<sup>th</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>11:48:32 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">23</td>
+
+						<td>
+							<a href="/Glenne46">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Gfeb4af43b.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Glenne46">Glenne46</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>13<sup>th</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>11:35:46 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">24</td>
+
+						<td>
+							<a href="/aman6585">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G0d91cf349.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/aman6585">aman6585</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>13<sup>th</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:46:52 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">25</td>
+
+						<td>
+							<a href="/peppo_1988">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G03feb5ef5.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/peppo_1988">peppo_1988</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>13<sup>th</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:15:51 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">26</td>
+
+						<td>
+							<a href="/Sick_Martin">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Gdd635837c.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Sick_Martin">Sick_Martin</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>13<sup>th</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:10:59 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">27</td>
+
+						<td>
+							<a href="/JoeyOfSuburbia3">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Gc21d3fcaf.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/JoeyOfSuburbia3">JoeyOfSuburbia3</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>13<sup>th</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:10:21 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">28</td>
+
+						<td>
+							<a href="/SwS_Frick3R_SwS">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G68467ccdf.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/SwS_Frick3R_SwS">SwS_Frick3R_SwS</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>11<sup>th</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>12:10:45 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">29</td>
+
+						<td>
+							<a href="/greguens">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Gde196dc07.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/greguens">greguens</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>9<sup>th</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>12:30:26 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">30</td>
+
+						<td>
+							<a href="/WITJA-BVB09">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G0b807b8c6.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/WITJA-BVB09">WITJA-BVB09</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>6<sup>th</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:44:00 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">31</td>
+
+						<td>
+							<a href="/S3pt_78">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Gc533bd756.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/S3pt_78">S3pt_78</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>4<sup>th</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>1:55:42 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">32</td>
+
+						<td>
+							<a href="/KlimaUredzaj">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G2ee31ec40.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/KlimaUredzaj">KlimaUredzaj</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>2<sup>nd</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>6:15:30 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">33</td>
+
+						<td>
+							<a href="/SolidSnake59650">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G0c93bc9aa.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/SolidSnake59650">SolidSnake59650</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>2<sup>nd</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>5:21:03 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">34</td>
+
+						<td>
+							<a href="/FERRARI_BAD_LAD">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Gd6b182a3d.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/FERRARI_BAD_LAD">FERRARI_BAD_LAD</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>2<sup>nd</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>2:22:25 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">35</td>
+
+						<td>
+							<a href="/MatBacch">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G7c3c5686b.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/MatBacch">MatBacch</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>2<sup>nd</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>12:42:26 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">36</td>
+
+						<td>
+							<a href="/waszkagg">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Gfbe6f8d5b.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/waszkagg">waszkagg</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>2<sup>nd</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>12:10:36 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">37</td>
+
+						<td>
+							<a href="/Roseace77">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G88b1bf17a.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Roseace77">Roseace77</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>2<sup>nd</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>11:22:38 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">38</td>
+
+						<td>
+							<a href="/ChaosControlPT">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Gbf1876a00.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/ChaosControlPT">ChaosControlPT</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>2<sup>nd</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:15:09 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">39</td>
+
+						<td>
+							<a href="/Dylan-Mehl">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G739d95ba9.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Dylan-Mehl">Dylan-Mehl</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>1<sup>st</sup> Jun 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:38:38 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">40</td>
+
+						<td>
+							<a href="/FBI-Donkey">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G76aaf8763.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/FBI-Donkey">FBI-Donkey</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>31<sup>st</sup> May 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>4:28:30 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">41</td>
+
+						<td>
+							<a href="/shary96">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Gb87a0bc32.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/shary96">shary96</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>31<sup>st</sup> May 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>1:04:02 PM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">42</td>
+
+						<td>
+							<a href="/ebilgin17">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G412a5a9c3.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/ebilgin17">ebilgin17</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>31<sup>st</sup> May 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>11:58:35 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">43</td>
+
+						<td>
+							<a href="/Tijgertje84">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G7258b39d4.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Tijgertje84">Tijgertje84</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>31<sup>st</sup> May 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>11:34:33 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">44</td>
+
+						<td>
+							<a href="/MaunZeDun20">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G0dd4c0718.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/MaunZeDun20">MaunZeDun20</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>31<sup>st</sup> May 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:52:20 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">45</td>
+
+						<td>
+							<a href="/OverlordBR-PT">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G8242037c6.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/OverlordBR-PT">OverlordBR-PT</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>31<sup>st</sup> May 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:31:19 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">46</td>
+
+						<td>
+							<a href="/One_More_67">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Gf5634704e.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/One_More_67">One_More_67</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>31<sup>st</sup> May 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:21:42 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">47</td>
+
+						<td>
+							<a href="/MarkX-990">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Ga286f9b05.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/MarkX-990">MarkX-990</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>31<sup>st</sup> May 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:15:25 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">48</td>
+
+						<td>
+							<a href="/Kul_84_PL">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Gcaa4cfdad.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/Kul_84_PL">Kul_84_PL</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>31<sup>st</sup> May 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:11:37 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">49</td>
+
+						<td>
+							<a href="/dominionator">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/G3ae2130f8.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/dominionator">dominionator</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>31<sup>st</sup> May 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>3:34:40 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+									<tr class="">
+						<td class="rank">50</td>
+
+						<td>
+							<a href="/barbacn">
+								<img class="trophy sm" src="https://i.psnprofiles.com/avatars/s/Ga71ed8ec3.png">
+							</a>
+						</td>
+
+						<td style="width: 100%;">
+							<a class="title" href="/barbacn">barbacn</a>
+						</td>
+
+						<td>
+							<center>
+								<span class="typo-top-date"><nobr>30<sup>th</sup> May 2020</nobr></span><br />
+								<span class="typo-bottom-date"><nobr>10:14:27 AM</nobr></span>
+							</center>
+						</td>
+					</tr>
+							</table>
+		</div>
+
+					
+	</div>
+
+			
+	</div>
+</div>
+</div>
+		</div>
+
+	</div>
+
+	
+        							<div style="margin: 10px 0 -10px 0">
+					            <div class="">
+                <center>
+                    <div id="leaderboard_btf"></div>
+                </center>
+                            </div>
+        
+				</div>
+					
+		<div class="footer">
+			<div class="width">
+				<div class="row">
+
+					<div class="col-xs-8">
+
+						<div class="logo">
+							<img src="/lib/img/layout/spacer.png" alt="PSNProfiles">
+						</div>
+
+						<ul class="social-links">
+							<li><a href="https://twitter.com/PSNProfiles" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="https://www.facebook.com/PSNProfiles/" target="_blank" rel="nofollow"><i class="fa fa-facebook"></i></a></li>
+						</ul>
+
+						PSNProfiles is not affiliated with Sony or PlayStation in any way
+						<br />&copy; 2020 <!--<a href="" target="_blank">-->Gaming Profiles Ltd<!--</a>-->
+						
+											</div>
+
+					<div class="col-xs-4 center">
+						<a href="" class="contact-us">Contact Us</a>
+						<bullet>•</bullet> <a href="/about/terms">Terms & Conditions</a>
+						<bullet>•</bullet> <a href="/about/privacy">Privacy Policy</a>
+						<br />
+						<a href="" onclick="modal('misc/advertising'); return false;">Advertising</a>
+						<bullet>•</bullet> <a href="/account/delete">Delete/Restore Profile</a>
+						<bullet>•</bullet> <a href="" onclick="window.__cmp('showConsentModal'); return false">Cookie Settings</a>
+						<script>
+							var a = 'contact';
+							var b = 'psnprofiles.com';
+							$('a.contact-us').each(function(i) {
+								$(this).attr("href", 'mailto:'+a+'@'+b);
+							});
+						</script>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+							ga('create', 'UA-23645670-1', 'auto');
+			            
+            
+							ga('send', 'pageview');
+			
+			var doSlideAd;
+			var currAdOffset;
+			var skinWidth;
+
+			function recalcSideAds()
+			{
+				if (!doSlideAd)
+				{
+					doSlideAd = true;
+				}
+
+				var offset = $('#content').offset();
+
+				var leftWidth = Math.ceil(offset.left);
+				var rightWidth = ($(window).width() - offset.left - $('#content').outerWidth());
+
+				var leftBGOffset = leftWidth - ((skinWidth / 2) - 495);
+				var rightBGOffset = ((skinWidth / 2) + 495);
+
+				$('#leftAd').css('width', leftWidth+'px').css('background-position', leftBGOffset+'px top');
+				$('#rightAd').css('width', rightWidth+'px').css('background-position', -rightBGOffset+'px top');
+			}
+
+			function setUpSkin(img, color, url)
+			{
+				$('<img />').attr('src', img).appendTo('body').hide().one("load", function()
+				{
+					$('body').addClass('hasSkin');
+
+					skinWidth = $(this).width();
+
+					$('#leftAd').css('background', color+" url('"+img+"') no-repeat").show().click(function()
+					{
+						var ad=window.open(url);
+					});
+					$('#rightAd').css('background', color+" url('"+img+"') no-repeat").show().click(function()
+					{
+						var ad=window.open(url);
+					});
+
+					$('.title-bar h3.ellipsis').css('width', $('.title-bar h3.ellipsis').width() - 131+'px');
+
+					recalcSideAds();
+
+					$(window).resize(function()
+					{
+						recalcSideAds();
+					});
+				}
+				).each(function()
+				{
+					if(this.complete) $(this).load();
+				});
+			}
+
+							$(document).ready(function()
+				{
+					if ($('#slider'))
+					{
+						var lastScrollTop;
+						var lastScrollDir;
+
+						$(window).scroll(function(e)
+						{
+						 	var scrollTop = $(this).scrollTop();
+						 	var screenWidth = $(window).width();
+
+						 	var topMargin = 0;
+
+							(scrollTop > 500 ? $('.scroll-top').addClass('st-is-visible') : $('.scroll-top').removeClass('st-is-visible cd-fade-out'));
+
+							if (doSlideAd)
+							{
+								if (scrollTop <= topMargin)
+								{
+									currAdOffset = scrollTop;
+
+									$('#leftAd').css('-webkit-transform', 'translate3d(0,'+Math.floor(-scrollTop)+'px, 0)').css('-moz-transform', 'translate3d(0,'+Math.floor(-scrollTop)+'px, 0)');
+									$('#rightAd').css('-webkit-transform', 'translate3d(0,'+Math.floor(-scrollTop)+'px, 0)').css('-moz-transform', 'translate3d(0,'+Math.floor(-scrollTop)+'px, 0)');
+								}
+								else
+								{
+									if (currAdOffset != topMargin)
+									{
+										currAdOffset = topMargin;
+
+										$('#leftAd').css('-webkit-transform', 'translate3d(0, -'+topMargin+'px, 0)').css('-moz-transform', 'translate3d(0, -'+topMargin+'px, 0)');
+										$('#rightAd').css('-webkit-transform', 'translate3d(0, -'+topMargin+'px, 0)').css('-moz-transform', 'translate3d(0, -'+topMargin+'px, 0)');
+									}
+								}
+							}
+
+						 	if (scrollTop <= 641)
+						 	{
+								//$('#slider').css('-webkit-transform', 'translate3d(0,'+Math.floor((scrollTop-60)/2)+'px, 0)').css('-moz-transform', 'translate3d(0,'+Math.floor((scrollTop-60)/2)+'px, 0)');
+						 	}
+
+						 	if (scrollTop > lastScrollTop)
+						 	{
+						 		// Scrolling down
+						 		if (lastScrollDir == 'U')
+						 		{
+						 			//$('#header').removeClass('fixed');
+						 		}
+
+						 		lastScrollDir = 'D';
+						 	}
+						 	else
+						 	{
+						 		// Scrolling up
+						 		if (lastScrollDir == 'D')
+						 		{
+						 			//$('#header').addClass('fixed');
+						 		}
+
+						 		lastScrollDir = 'U';
+						 	}
+
+						 	lastScrollTop = scrollTop;
+						});
+					}
+					else
+					{/*
+						$(window).scroll(function(e)
+						{
+							if (doSlideAd)
+							{
+							 	var scrollTop = $(this).scrollTop();
+							 	if (scrollTop <= 60)
+							 	{
+									$('#leftAd').css('-webkit-transform', 'translate3d(0,'+Math.floor(-scrollTop)+'px, 0)').css('-moz-transform', 'translate3d(0,'+Math.floor(-scrollTop)+'px, 0)');
+									$('#rightAd').css('-webkit-transform', 'translate3d(0,'+Math.floor(-scrollTop)+'px, 0)').css('-moz-transform', 'translate3d(0,'+Math.floor(-scrollTop)+'px, 0)');
+							 	}
+							}
+						});*/
+					}
+				});
+			
+
+		</script>
+
+		<a href="#" class="scroll-top"><i class="fa fa-chevron-up"></i></a>
+
+		
+		
+		<form id="logoutForm" action="/auth/logout" method="POST">
+			<input type="hidden" name="_token" value="nP50P8e1HNCPkAAE9SdtobcVrXB4nXfs1rRoaYiL">
+		</form>
+
+				<script src="https://checkout.stripe.com/checkout.js"></script>
+		<script src="https://js.braintreegateway.com/web/3.3.0/js/client.min.js"></script>
+		<script src="https://js.braintreegateway.com/web/3.3.0/js/paypal.min.js"></script>
+
+					<script>
+				$('body > a.scroll-top').click(function(e) {
+					e.preventDefault();
+					$(document).scrollTo(0, 500);
+				});
+			</script>
+		
+	</body>
+	</html>

@@ -1,0 +1,12 @@
+language: python
+python:
+  - "3.7"
+addons:
+  homebrew:
+    brewfile: true
+install:
+  - pip install --upgrade pip
+  - pip install -r requirements.txt
+  - pipenv install
+script:
+  - python src/main.py
