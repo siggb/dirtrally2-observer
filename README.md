@@ -4,8 +4,6 @@
 
 Observing [FIRE UP THAT CAR... AGAIN](https://psnprofiles.com/trophy/8745-dirt-rally-20/9-fire-up-that-car-again) from Dirt Rally 2.0 for anomaly in Latest 50 Achievers. When an anomaly is detected, it (most probably) means that the Delta Daily event was on that date.
 
-<img src="resources/trophy.jpg" alt="The trophy" width=30% />
-
 ## Quick Start
 
 1. `git clone git@github.com:siggb/dirtrally2-observer.git`
@@ -16,4 +14,6 @@ Observing [FIRE UP THAT CAR... AGAIN](https://psnprofiles.com/trophy/8745-dirt-r
 
 ## Horizontal Bar Chart with Results
 
-<img src="resources/barchart.png" alt="Latest 50 Achievers" width=60% />
+<img src="resources/barchart.png" alt="Without anomaly" width=60% />
+
+<img src="resources/barchart_with_anomaly.png" alt="With anomaly" width=60% />

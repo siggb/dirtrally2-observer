@@ -35,7 +35,7 @@ def drawBarChart(datesDict: {date: int}):
     xValues = datesDict.values()
     yValues = list(map(lambda k: k.strftime(
         constants.DATE_FORMAT), datesDict.keys()))
-    colors = ['grey' if (x < constants.MAX_AVG_DAILY_ACHIEVERS)
+    colors = ['grey' if (x <= constants.MAX_AVG_DAILY_ACHIEVERS)
               else 'blue' for x in xValues]
 
     plt.barh(yValues, xValues, color=colors, align="center")
